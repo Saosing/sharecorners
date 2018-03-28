@@ -18,3 +18,11 @@ jobs:
             - python/save-cache
 
             # disable style check for python 3.5 (black unavailable)
+            - run: python3 --version | grep 'Python 3.5.' > /dev/null || make style-check
+            - run: make test
+            - run: bash <(curl -s https://codecov.io/bash)
+            - store_test_results:
+                path: test-results
+            - store_artifacts:
+                path: test-results
+    build-python35:
