@@ -5,3 +5,5 @@ orbs:
 jobs:
     build: &common-build
         docker:
+            - image: circleci/python
+        steps:
