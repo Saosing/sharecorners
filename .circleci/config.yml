@@ -27,3 +27,6 @@ jobs:
                 path: test-results
     build-python35:
         <<: *common-build
+        docker:
+            - image: circleci/python:3.5.7-jessie
+    build-python36:
