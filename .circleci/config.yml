@@ -11,3 +11,10 @@ jobs:
             - python/load-cache
             - run: sudo apt update
             - run: sudo apt install -y qpdf xpdf libimage-exiftool-perl poppler-utils
+
+            # don't install black in python 3.5
+            - run: python3 --version | grep 'Python 3.5.' > /dev/null && sed -e 's/^black$//g' -i requirements.dev.txt || true
+            - run: python3 -m pip install --user -r requirements.txt -r requirements.dev.txt
+            - python/save-cache
+
+            # disable style check for python 3.5 (black unavailable)
