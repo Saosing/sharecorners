@@ -30,3 +30,5 @@ jobs:
         docker:
             - image: circleci/python:3.5.7-jessie
     build-python36:
+        <<: *common-build
+        docker:
