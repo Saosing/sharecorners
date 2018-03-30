@@ -37,3 +37,7 @@ jobs:
         <<: *common-build
         docker:
             - image: circleci/python:3.7.7-stretch
+    build-python38:
+        <<: *common-build
+        docker:
+            - image: circleci/python:3.8.2-buster
