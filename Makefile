@@ -7,3 +7,5 @@ style-check:
 
 test:
 	mkdir -p test-results
+	python3 -m pytest \
+	    --cov=pdf2images \
