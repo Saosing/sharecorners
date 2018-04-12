@@ -9,3 +9,5 @@ test:
 	mkdir -p test-results
 	python3 -m pytest \
 	    --cov=pdf2images \
+	    --no-cov-on-fail \
+	    --cov-report=html:test-results/htmlcov \
