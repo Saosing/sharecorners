@@ -11,3 +11,6 @@ test:
 	    --cov=pdf2images \
 	    --no-cov-on-fail \
 	    --cov-report=html:test-results/htmlcov \
+	    --cov-report term \
+	    --doctest-modules \
+	    --junitxml=test-results/junit.xml \
