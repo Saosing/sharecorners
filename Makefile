@@ -14,3 +14,8 @@ test:
 	    --cov-report term \
 	    --doctest-modules \
 	    --junitxml=test-results/junit.xml \
+	    pdf2images tests
+	python3 -m coverage xml -o test-results/coverage.xml
+
+wheel:
+	python3 setup.py sdist bdist_wheel
