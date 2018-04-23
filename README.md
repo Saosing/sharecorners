@@ -1,1 +1,1 @@
-# pdf2i
+# pdf2image
