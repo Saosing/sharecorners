@@ -1,3 +1,3 @@
 # pdf2images
 
-[![Build Status](https://img.shield
+[![Build Status](https://img.shields.io/c
