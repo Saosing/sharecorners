@@ -1,3 +1,3 @@
 # pdf2images
 
-[![Build Status](https://img
+[![Build Status](https://img.sh
