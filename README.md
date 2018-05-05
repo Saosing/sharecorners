@@ -1,3 +1,3 @@
 # pdf2images
 
-[![Build Status](https://img.shields.io/circleci/build/gi
+[![Build Status](https://img.shields.io/circleci/build/github
