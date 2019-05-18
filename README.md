@@ -6,4 +6,5 @@
 [![PyPI - License](https://img.shields.io/pypi/l/pdf2images)](https://github.com/zxytim/pdf2images/blob/master/LICENSE)
 [![PyPI version](https://badge.fury.io/py/pdf2images.svg)](https://badge.fury.io/py/pdf2images)
 [![Requires.io](https://img.shields.io/requires/github/zxytim/pdf2images)](https://requires.io/github/zxytim/pdf2images/requirements/?branch=master)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/pdf2images)](https://pypi.org/project/pdf2images/
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pdf2images)](https://pypi.org/project/pdf2images/)
+!
