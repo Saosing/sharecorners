@@ -7,4 +7,4 @@
 [![PyPI version](https://badge.fury.io/py/pdf2images.svg)](https://badge.fury.io/py/pdf2images)
 [![Requires.io](https://img.shields.io/requires/github/zxytim/pdf2images)](https://requires.io/github/zxytim/pdf2images/requirements/?branch=master)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/pdf2images)](https://pypi.org/project/pdf2images/)
-![PyPI - Python Version](htt
+![PyPI - Python Version](https:
