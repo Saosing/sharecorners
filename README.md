@@ -9,4 +9,4 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/pdf2images)](https://pypi.org/project/pdf2images/)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pdf2images)
 
-Convert PDF file to image fi
+Convert PDF file to image files 
