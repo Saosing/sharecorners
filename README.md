@@ -11,4 +11,4 @@
 
 Convert PDF file to image files **ROBUSTLY**.
 
-## Examp
+## Example
