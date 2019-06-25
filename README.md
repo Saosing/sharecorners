@@ -14,4 +14,4 @@ Convert PDF file to image files **ROBUSTLY**.
 ## Example
 
 ```bash
-$ pdf2image
+$ pdf2images -h
