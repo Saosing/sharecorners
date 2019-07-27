@@ -17,4 +17,4 @@ Convert PDF file to image files **ROBUSTLY**.
 $ pdf2images -h
 usage: pdf2images [-h] [--max-size MAX_SIZE] pdf_file output_dir
 
-positional arg
+positional argume
