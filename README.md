@@ -18,3 +18,4 @@ $ pdf2images -h
 usage: pdf2images [-h] [--max-size MAX_SIZE] pdf_file output_dir
 
 positional arguments:
+  pd
