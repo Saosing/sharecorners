@@ -19,4 +19,4 @@ usage: pdf2images [-h] [--max-size MAX_SIZE] pdf_file output_dir
 
 positional arguments:
   pdf_file
-  outpu
+  output_dir
