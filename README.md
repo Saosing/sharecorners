@@ -21,3 +21,4 @@ positional arguments:
   pdf_file
   output_dir
 
+o
