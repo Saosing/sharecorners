@@ -21,4 +21,4 @@ positional arguments:
   pdf_file
   output_dir
 
-optional arg
+optional argu
