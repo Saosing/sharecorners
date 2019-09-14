@@ -22,4 +22,4 @@ positional arguments:
   output_dir
 
 optional arguments:
-  -h, --help           show this help messa
+  -h, --help           show this help message 
