@@ -23,4 +23,4 @@ positional arguments:
 
 optional arguments:
   -h, --help           show this help message and exit
-  --max-size MAX_SIZE  max size of either side of the i
+  --max-size MAX_SIZE  max size of either side of the image
