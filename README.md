@@ -26,4 +26,4 @@ optional arguments:
   --max-size MAX_SIZE  max size of either side of the image
 ```
 
-## Why another "pdf-to-
+## Why another "pdf-to-imag
