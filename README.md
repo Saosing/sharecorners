@@ -28,4 +28,4 @@ optional arguments:
 
 ## Why another "pdf-to-image" package
 
-Once in a while, I need to 
+Once in a while, I need to conver
