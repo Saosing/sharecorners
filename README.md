@@ -28,4 +28,4 @@ optional arguments:
 
 ## Why another "pdf-to-image" package
 
-Once in a while, I need 
+Once in a while, I need to
