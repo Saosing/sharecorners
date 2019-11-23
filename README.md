@@ -29,4 +29,4 @@ optional arguments:
 ## Why another "pdf-to-image" package
 
 Once in a while, I need to convert a pdf file (usually slides or academic
-paper) into image files (thumb
+paper) into image files (thumbn
