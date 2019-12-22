@@ -30,4 +30,4 @@ optional arguments:
 
 Once in a while, I need to convert a pdf file (usually slides or academic
 paper) into image files (thumbnails) in order to get a fast glance to the
-readers without downloading the pdf 
+readers without downloading the pdf fil
