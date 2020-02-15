@@ -32,4 +32,5 @@ Once in a while, I need to convert a pdf file (usually slides or academic
 paper) into image files (thumbnails) in order to get a fast glance to the
 readers without downloading the pdf file.
 
-However, I found all the pdf2image solutions cannot robustly process al
+However, I found all the pdf2image solutions cannot robustly process all the
+p
