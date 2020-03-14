@@ -33,4 +33,4 @@ paper) into image files (thumbnails) in order to get a fast glance to the
 readers without downloading the pdf file.
 
 However, I found all the pdf2image solutions cannot robustly process all the
-pdf files, since many pdf files are in non-standar
+pdf files, since many pdf files are in non-standard f
