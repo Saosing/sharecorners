@@ -34,4 +34,4 @@ readers without downloading the pdf file.
 
 However, I found all the pdf2image solutions cannot robustly process all the
 pdf files, since many pdf files are in non-standard format or come up with
-extensions. They ar
+extensions. They are 
