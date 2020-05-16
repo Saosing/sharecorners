@@ -36,4 +36,4 @@ However, I found all the pdf2image solutions cannot robustly process all the
 pdf files, since many pdf files are in non-standard format or come up with
 extensions. They are always broken in some cases.
 
-But to loo
+But to look t
