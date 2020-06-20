@@ -37,4 +37,4 @@ pdf files, since many pdf files are in non-standard format or come up with
 extensions. They are always broken in some cases.
 
 But to look them on the bright side, for any plausible case, there is almost
-one of them can p
+one of them can process
