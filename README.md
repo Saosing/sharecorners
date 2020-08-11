@@ -41,4 +41,5 @@ one of them can process it successfully.
 
 So I combined (a.k.a. _ensemble_) them together to make it work across most cases.
 
-## Installatio
+## Installation
+
