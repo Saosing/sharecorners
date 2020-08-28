@@ -43,4 +43,4 @@ So I combined (a.k.a. _ensemble_) them together to make it work across most case
 
 ## Installation
 
-As mentioned above, we combined multiple pdf manipulation libr
+As mentioned above, we combined multiple pdf manipulation librarie
