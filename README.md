@@ -47,4 +47,4 @@ As mentioned above, we combined multiple pdf manipulation libraries. Here are
 the list of the libraries used:
 
 -   [wand](http://docs.wand-py.org), an ImageMagick python wrapper.
--   `pdftotext` command
+-   `pdftotext` command lin
