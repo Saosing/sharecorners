@@ -49,4 +49,4 @@ the list of the libraries used:
 -   [wand](http://docs.wand-py.org), an ImageMagick python wrapper.
 -   `pdftotext` command line tool provided by [xpdf](http://www.xpdfreader.com/)
 -   [preview-generator](https://github.com/algoo/preview-generator)
--   [qpdf
+-   [qpdf](
