@@ -51,4 +51,4 @@ the list of the libraries used:
 -   [preview-generator](https://github.com/algoo/preview-generator)
 -   [qpdf](https://github.com/qpdf/qpdf)
 
-where wand an
+where wand and p
