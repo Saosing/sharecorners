@@ -55,4 +55,4 @@ where wand and preview-generator are python packages that can be automatically
 installed along with pdf2images. However, you have to install xpdf and qpdf
 manually.
 
-On Ubun
+On Ubuntu:
