@@ -56,3 +56,5 @@ installed along with pdf2images. However, you have to install xpdf and qpdf
 manually.
 
 On Ubuntu:
+
+`
