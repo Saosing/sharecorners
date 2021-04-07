@@ -58,4 +58,4 @@ manually.
 On Ubuntu:
 
 ```bash
-s
+sudo a
