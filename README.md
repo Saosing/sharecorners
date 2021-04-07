@@ -57,4 +57,5 @@ manually.
 
 On Ubuntu:
 
-```b
+```bash
+s
