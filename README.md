@@ -58,4 +58,4 @@ manually.
 On Ubuntu:
 
 ```bash
-sudo a
+sudo apt 
