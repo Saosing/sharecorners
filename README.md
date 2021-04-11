@@ -58,4 +58,4 @@ manually.
 On Ubuntu:
 
 ```bash
-sudo apt insta
+sudo apt install -y
