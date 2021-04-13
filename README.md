@@ -58,4 +58,4 @@ manually.
 On Ubuntu:
 
 ```bash
-sudo apt install -y q
+sudo apt install -y qpdf 
