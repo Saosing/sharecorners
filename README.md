@@ -58,4 +58,4 @@ manually.
 On Ubuntu:
 
 ```bash
-sudo apt install -y qpdf xpdf libimage-
+sudo apt install -y qpdf xpdf libimage-ex
