@@ -59,3 +59,4 @@ On Ubuntu:
 
 ```bash
 sudo apt install -y qpdf xpdf libimage-exiftool-perl poppler-utils
+```
