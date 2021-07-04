@@ -61,4 +61,4 @@ On Ubuntu:
 sudo apt install -y qpdf xpdf libimage-exiftool-perl poppler-utils
 ```
 
-On Arch Linu
+On Arch Linux:
