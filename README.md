@@ -64,4 +64,4 @@ sudo apt install -y qpdf xpdf libimage-exiftool-perl poppler-utils
 On Arch Linux:
 
 ```bash
-sudo pacman -S --no
+sudo pacman -S --nocon
