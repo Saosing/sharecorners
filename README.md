@@ -64,4 +64,5 @@ sudo apt install -y qpdf xpdf libimage-exiftool-perl poppler-utils
 On Arch Linux:
 
 ```bash
-sudo pacman -S --noconfirm qpdf xpdf perl-image-exiftoo
+sudo pacman -S --noconfirm qpdf xpdf perl-image-exiftool
+``
