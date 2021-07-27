@@ -67,4 +67,4 @@ On Arch Linux:
 sudo pacman -S --noconfirm qpdf xpdf perl-image-exiftool
 ```
 
-On m
+On macOS
