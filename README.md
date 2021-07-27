@@ -66,3 +66,5 @@ On Arch Linux:
 ```bash
 sudo pacman -S --noconfirm qpdf xpdf perl-image-exiftool
 ```
+
+On m
