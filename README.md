@@ -70,4 +70,4 @@ sudo pacman -S --noconfirm qpdf xpdf perl-image-exiftool
 On macOS:
 
 ```bash
-brew install freetype imagemagick qpdf xpdf exi
+brew install freetype imagemagick qpdf xpdf exiftoo
