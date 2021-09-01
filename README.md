@@ -71,3 +71,5 @@ On macOS:
 
 ```bash
 brew install freetype imagemagick qpdf xpdf exiftool libmagic ghostscript
+```
+
