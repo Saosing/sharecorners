@@ -77,4 +77,6 @@ The installation of pdf2images is quite simple:
 
 ```bash
 pip install pdf2images
-``
+```
+
+##
