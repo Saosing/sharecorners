@@ -81,4 +81,4 @@ pip install pdf2images
 
 ## Robustness
 
-This package has succ
+This package has success
