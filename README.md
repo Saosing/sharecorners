@@ -81,4 +81,4 @@ pip install pdf2images
 
 ## Robustness
 
-This package has successfully processed hundreds of th
+This package has successfully processed hundreds of thous
