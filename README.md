@@ -81,4 +81,5 @@ pip install pdf2images
 
 ## Robustness
 
-This package has successfully processed hundreds of thousands of arxiv paper
+This package has successfully processed hundreds of thousands of arxiv papers
+(
