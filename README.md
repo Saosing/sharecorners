@@ -86,4 +86,4 @@ This package has successfully processed hundreds of thousands of arxiv papers
 
 ## Gallary
 
-The following images are co
+The following images are conve
