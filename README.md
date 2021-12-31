@@ -86,4 +86,4 @@ This package has successfully processed hundreds of thousands of arxiv papers
 
 ## Gallary
 
-The following images are converted from a [slide](https://www.deep
+The following images are converted from a [slide](https://www.deeple
