@@ -90,3 +90,4 @@ The following images are converted from a [slide](https://www.deeplearningbook.o
 
 ![page-0](assets/0.png)
 ![page-1](assets/1.png)
+![
