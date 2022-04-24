@@ -93,4 +93,4 @@ The following images are converted from a [slide](https://www.deeplearningbook.o
 ![page-2](assets/2.png)
 ![page-3](assets/3.png)
 
-## 
+## Dev
