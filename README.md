@@ -96,4 +96,4 @@ The following images are converted from a [slide](https://www.deeplearningbook.o
 ## Development
 
 ```bash
-pip3 install -r 
+pip3 install -r re
