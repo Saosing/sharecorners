@@ -97,4 +97,4 @@ The following images are converted from a [slide](https://www.deeplearningbook.o
 
 ```bash
 pip3 install -r requirements.dev.txt
-pre-commit insta
+pre-commit install
