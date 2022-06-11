@@ -13,3 +13,4 @@ def main():
     parser.add_argument(dest="output_dir")
     parser.add_argument(
         "--max-size",
+        default=1280,
