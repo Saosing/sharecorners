@@ -14,3 +14,6 @@ def main():
     parser.add_argument(
         "--max-size",
         default=1280,
+        type=int,
+        help="max size of either side of the image",
+    )
