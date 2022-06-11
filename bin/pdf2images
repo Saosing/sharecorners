@@ -6,3 +6,7 @@ import os
 import pdf2images
 from loguru import logger
 
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(dest="pdf_file")
