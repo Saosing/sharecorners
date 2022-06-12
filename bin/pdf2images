@@ -27,3 +27,7 @@ def main():
     rst = pdf2images.pdf_data_to_thumbnails(
         pdf_data, list(range(num_pages)), args.max_size, args.max_size
     )
+
+    os.makedirs(args.output_dir, exist_ok=True)
+    for k, v in sorted(rst.items()):
+        output_path = os.path.join(args.output_dir, str(k) + ".png")
