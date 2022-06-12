@@ -17,3 +17,9 @@ def main():
         type=int,
         help="max size of either side of the image",
     )
+    args = parser.parse_args()
+
+    with open(args.pdf_file, "rb") as f:
+        pdf_data = f.read()
+
+    num_pages = pdf2images.get_num_pages_given_path(args.pdf_file)
