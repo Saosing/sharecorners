@@ -23,3 +23,7 @@ def main():
         pdf_data = f.read()
 
     num_pages = pdf2images.get_num_pages_given_path(args.pdf_file)
+
+    rst = pdf2images.pdf_data_to_thumbnails(
+        pdf_data, list(range(num_pages)), args.max_size, args.max_size
+    )
