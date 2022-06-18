@@ -31,3 +31,5 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
     for k, v in sorted(rst.items()):
         output_path = os.path.join(args.output_dir, str(k) + ".png")
+        with open(output_path, "wb") as f:
+            f.write(v)
