@@ -33,3 +33,7 @@ def main():
         output_path = os.path.join(args.output_dir, str(k) + ".png")
         with open(output_path, "wb") as f:
             f.write(v)
+
+
+if __name__ == "__main__":
+    main()
