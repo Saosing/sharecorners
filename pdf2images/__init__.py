@@ -8,3 +8,7 @@ from .pdf2images import (
     pdf_data_to_thumbnails_by_imagemagick,
     pdf_data_to_thumbnails_by_preview_generator,
 )
+
+from .packdet import check_system_packages
+
+check_system_packages()
