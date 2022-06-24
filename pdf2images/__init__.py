@@ -12,3 +12,6 @@ from .pdf2images import (
 from .packdet import check_system_packages
 
 check_system_packages()
+
+__all__ = [
+    "pdf_data_to_thumbnails",
