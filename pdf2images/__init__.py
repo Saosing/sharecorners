@@ -19,3 +19,4 @@ __all__ = [
     "get_num_pages_given_path",
     "pdf_data_to_thumbnails_by_qpdf",
     "pdf_data_to_thumbnails_by_imagemagick",
+    "pdf_data_to_thumbnails_by_preview_generator",
