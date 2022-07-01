@@ -9,3 +9,6 @@ import json
 
 from plumbum import RETCODE
 
+
+def assert_system_supported():
+    p = platform.system()
