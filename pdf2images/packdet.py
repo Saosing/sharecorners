@@ -12,3 +12,8 @@ from plumbum import RETCODE
 
 def assert_system_supported():
     p = platform.system()
+    if p not in {"Linux", "Darwin"}:
+        raise OSError("This package only works on Linux and macOS: `{}`".format(p))
+
+
+def check_system_package_exists_archlinux(package: str):
