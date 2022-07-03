@@ -20,3 +20,4 @@ def check_system_package_exists_archlinux(package: str):
     from plumbum.cmd import pacman
 
     retcode = pacman["-Q", package] & RETCODE
+    return retcode == 0
