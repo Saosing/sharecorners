@@ -21,3 +21,4 @@ def check_system_package_exists_archlinux(package: str):
 
     retcode = pacman["-Q", package] & RETCODE
     return retcode == 0
+
