@@ -22,3 +22,6 @@ def check_system_package_exists_archlinux(package: str):
     retcode = pacman["-Q", package] & RETCODE
     return retcode == 0
 
+
+def check_system_package_exists_debian(package: str):
+    from plumbum.cmd import dpkg
