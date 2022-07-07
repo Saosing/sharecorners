@@ -25,3 +25,10 @@ def check_system_package_exists_archlinux(package: str):
 
 def check_system_package_exists_debian(package: str):
     from plumbum.cmd import dpkg
+
+    retcode = dpkg["-s", package] & RETCODE
+    return retcode == 0
+
+
+def check_system_package_exists_darwin(package: str):
+    from plumbum.cmd import brew
