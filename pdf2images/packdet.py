@@ -32,3 +32,6 @@ def check_system_package_exists_debian(package: str):
 
 def check_system_package_exists_darwin(package: str):
     from plumbum.cmd import brew
+
+    retcode = brew["list", package] & RETCODE
+    return retcode == 0
