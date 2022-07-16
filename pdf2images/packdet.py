@@ -35,3 +35,9 @@ def check_system_package_exists_darwin(package: str):
 
     retcode = brew["list", package] & RETCODE
     return retcode == 0
+
+
+def get_configurations():
+    arch_packages = ["qpdf", "xpdf", "perl-image-exiftool"]
+    arch_conf = {
+        "packages": arch_packages,
