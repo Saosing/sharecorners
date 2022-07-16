@@ -41,3 +41,7 @@ def get_configurations():
     arch_packages = ["qpdf", "xpdf", "perl-image-exiftool"]
     arch_conf = {
         "packages": arch_packages,
+        "check_system_package_exists": check_system_package_exists_archlinux,
+        "install_instruction": "sudo pacman -Sy && sudo pacman -S --noconfirm {}".format(
+            " ".join(arch_packages)
+        ),
