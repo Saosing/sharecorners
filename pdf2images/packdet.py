@@ -45,3 +45,4 @@ def get_configurations():
         "install_instruction": "sudo pacman -Sy && sudo pacman -S --noconfirm {}".format(
             " ".join(arch_packages)
         ),
+    }
