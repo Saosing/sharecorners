@@ -48,3 +48,5 @@ def get_configurations():
     }
 
     debian_packages = ["qpdf", "xpdf", "libimage-exiftool-perl"]
+    debian_conf = {
+        "packages": debian_packages,
