@@ -50,3 +50,7 @@ def get_configurations():
     debian_packages = ["qpdf", "xpdf", "libimage-exiftool-perl"]
     debian_conf = {
         "packages": debian_packages,
+        "check_system_package_exists": check_system_package_exists_debian,
+        "install_instruction": "sudo apt update && sudo apt install -y {}".format(
+            " ".join(debian_packages)
+        ),
