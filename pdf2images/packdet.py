@@ -61,3 +61,7 @@ def get_configurations():
         "freetype",
         "imagemagick",
         "qpdf",
+        "xpdf",
+        "exiftool",
+        "libmagic",
+        "ghostscript",
