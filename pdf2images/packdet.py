@@ -54,3 +54,4 @@ def get_configurations():
         "install_instruction": "sudo apt update && sudo apt install -y {}".format(
             " ".join(debian_packages)
         ),
+    }
