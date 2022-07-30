@@ -55,3 +55,9 @@ def get_configurations():
             " ".join(debian_packages)
         ),
     }
+
+    # a.k.a, macOS
+    darwin_packages = [
+        "freetype",
+        "imagemagick",
+        "qpdf",
