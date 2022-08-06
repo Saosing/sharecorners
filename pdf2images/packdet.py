@@ -71,3 +71,7 @@ def get_configurations():
         "check_system_package_exists": check_system_package_exists_darwin,
         "install_instruction": "brew install {}".format(" ".join(darwin_packages)),
     }
+
+    return {
+        "arch": arch_conf,
+        "debian": debian_conf,
