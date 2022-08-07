@@ -83,3 +83,8 @@ def get_configurations():
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "pdf2images")
 CACHE_PATH = os.path.join(CACHE_DIR, "package_check.json")
 
+
+def check_system_packages_exist_from_cache(dist: str):
+    try:
+        if not os.path.exists(CACHE_PATH):
+            return False
