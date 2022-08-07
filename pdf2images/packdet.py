@@ -75,3 +75,5 @@ def get_configurations():
     return {
         "arch": arch_conf,
         "debian": debian_conf,
+        "ubuntu": debian_conf,
+        "darwin": darwin_conf,
