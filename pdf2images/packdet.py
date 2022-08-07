@@ -82,3 +82,4 @@ def get_configurations():
 
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "pdf2images")
 CACHE_PATH = os.path.join(CACHE_DIR, "package_check.json")
+
