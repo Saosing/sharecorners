@@ -77,3 +77,8 @@ def get_configurations():
         "debian": debian_conf,
         "ubuntu": debian_conf,
         "darwin": darwin_conf,
+    }
+
+
+CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "pdf2images")
+CACHE_PATH = os.path.join(CACHE_DIR, "package_check.json")
