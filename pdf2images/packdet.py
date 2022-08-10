@@ -88,3 +88,5 @@ def check_system_packages_exist_from_cache(dist: str):
     try:
         if not os.path.exists(CACHE_PATH):
             return False
+
+        with open(CACHE_PATH) as f:
