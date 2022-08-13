@@ -99,3 +99,6 @@ def check_system_packages_exist_from_cache(dist: str):
         import traceback
 
         traceback.print_exc()
+        logger.info("Check system packages exist from cache failed.")
+        return False
+
