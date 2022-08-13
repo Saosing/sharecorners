@@ -94,3 +94,8 @@ def check_system_packages_exist_from_cache(dist: str):
 
         if cache.get(dist, {}).get("ok", False):
             return True
+        return False
+    except Exception:
+        import traceback
+
+        traceback.print_exc()
