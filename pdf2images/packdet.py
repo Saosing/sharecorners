@@ -90,3 +90,7 @@ def check_system_packages_exist_from_cache(dist: str):
             return False
 
         with open(CACHE_PATH) as f:
+            cache = json.load(f)
+
+        if cache.get(dist, {}).get("ok", False):
+            return True
