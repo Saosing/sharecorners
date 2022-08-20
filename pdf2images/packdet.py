@@ -106,3 +106,7 @@ def check_system_packages_exist_from_cache(dist: str):
 def store_system_package_exists_cache(dist: str):
     if not os.path.exists(CACHE_DIR):
         os.makedirs(CACHE_DIR, exist_ok=True)
+
+    with open(CACHE_PATH, "w") as f:
+        json.dump({dist: {"ok": True}}, f)
+
