@@ -116,3 +116,6 @@ def check_system_packages():
 
     dist = distro.linux_distribution(full_distribution_name=False)[0]
     if check_system_packages_exist_from_cache(dist):
+        return True
+
+    confs = get_configurations()
