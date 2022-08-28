@@ -120,3 +120,6 @@ def check_system_packages():
 
     confs = get_configurations()
     if dist not in confs:
+        logger.info(
+            "Unknown linux distribution `{}`. Skip system package check".format(dist)
+        )
