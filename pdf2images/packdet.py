@@ -119,3 +119,4 @@ def check_system_packages():
         return True
 
     confs = get_configurations()
+    if dist not in confs:
