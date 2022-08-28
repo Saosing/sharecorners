@@ -110,3 +110,9 @@ def store_system_package_exists_cache(dist: str):
     with open(CACHE_PATH, "w") as f:
         json.dump({dist: {"ok": True}}, f)
 
+
+def check_system_packages():
+    assert_system_supported()
+
+    dist = distro.linux_distribution(full_distribution_name=False)[0]
+    if check_system_packages_exist_from_cache(dist):
