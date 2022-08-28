@@ -123,3 +123,4 @@ def check_system_packages():
         logger.info(
             "Unknown linux distribution `{}`. Skip system package check".format(dist)
         )
+        return
