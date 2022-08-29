@@ -124,3 +124,5 @@ def check_system_packages():
             "Unknown linux distribution `{}`. Skip system package check".format(dist)
         )
         return
+
+    conf = confs[dist]
