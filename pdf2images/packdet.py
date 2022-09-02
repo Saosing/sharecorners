@@ -126,3 +126,6 @@ def check_system_packages():
         return
 
     conf = confs[dist]
+
+    for pack in conf["packages"]:
+        if not conf["check_system_package_exists"](pack):
