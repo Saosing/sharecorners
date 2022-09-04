@@ -129,3 +129,6 @@ def check_system_packages():
 
     for pack in conf["packages"]:
         if not conf["check_system_package_exists"](pack):
+            raise RuntimeError(
+                "System package `{}` not installed. Please install using the following instruction to ensure all system depencies are installed: \n"
+                "    {}".format(pack, conf["install_instruction"])
