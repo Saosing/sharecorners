@@ -132,3 +132,6 @@ def check_system_packages():
             raise RuntimeError(
                 "System package `{}` not installed. Please install using the following instruction to ensure all system depencies are installed: \n"
                 "    {}".format(pack, conf["install_instruction"])
+            )
+
+    store_system_package_exists_cache(dist)
