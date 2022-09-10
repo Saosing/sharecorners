@@ -12,3 +12,5 @@ from wand.image import Image
 
 def pdf_data_to_thumbnails(
     pdf_data: bytes,
+    pages: List[int],
+    width_max: int,
