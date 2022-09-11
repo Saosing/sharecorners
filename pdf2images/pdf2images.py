@@ -15,3 +15,8 @@ def pdf_data_to_thumbnails(
     pages: List[int],
     width_max: int,
     height_max: int,
+    *,
+    use_last_resort: bool = True
+) -> Dict[int, bytes]:
+    """
+    Convert given pdf data to a set of images.
