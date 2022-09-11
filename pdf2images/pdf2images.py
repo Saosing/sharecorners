@@ -20,3 +20,6 @@ def pdf_data_to_thumbnails(
 ) -> Dict[int, bytes]:
     """
     Convert given pdf data to a set of images.
+
+    :return: a dict map from page number to the binary data of image (which can be directly write to disk)
+    """
