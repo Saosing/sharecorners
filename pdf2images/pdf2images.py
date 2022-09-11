@@ -23,3 +23,6 @@ def pdf_data_to_thumbnails(
 
     :return: a dict map from page number to the binary data of image (which can be directly write to disk)
     """
+
+    pdf_thumbnailing_funcs = [
+        ("preview_generator", pdf_data_to_thumbnails_by_preview_generator),
