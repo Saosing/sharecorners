@@ -26,3 +26,5 @@ def pdf_data_to_thumbnails(
 
     pdf_thumbnailing_funcs = [
         ("preview_generator", pdf_data_to_thumbnails_by_preview_generator),
+        ("imagemagick", pdf_data_to_thumbnails_by_imagemagick),
+    ]
