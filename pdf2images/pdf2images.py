@@ -28,3 +28,6 @@ def pdf_data_to_thumbnails(
         ("preview_generator", pdf_data_to_thumbnails_by_preview_generator),
         ("imagemagick", pdf_data_to_thumbnails_by_imagemagick),
     ]
+
+    if use_last_resort:
+        pdf_thumbnailing_funcs.append(("qpdf", pdf_data_to_thumbnails_by_qpdf))
