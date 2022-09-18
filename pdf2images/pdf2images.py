@@ -31,3 +31,7 @@ def pdf_data_to_thumbnails(
 
     if use_last_resort:
         pdf_thumbnailing_funcs.append(("qpdf", pdf_data_to_thumbnails_by_qpdf))
+
+    exceptions = []
+    for name, func in pdf_thumbnailing_funcs:
+        logger.info("Try using converter `{}`".format(name))
