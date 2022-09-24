@@ -41,3 +41,6 @@ def pdf_data_to_thumbnails(
             traceback.print_exc()
             logger.info("Converter `{}` failed".format(name))
             exceptions.append(e)
+
+    # if not returned
+    raise ValueError("Error generating thumbnails: ", exceptions)
