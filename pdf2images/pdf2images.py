@@ -38,3 +38,6 @@ def pdf_data_to_thumbnails(
         try:
             return func(pdf_data, pages, width_max, height_max)
         except Exception as e:
+            traceback.print_exc()
+            logger.info("Converter `{}` failed".format(name))
+            exceptions.append(e)
