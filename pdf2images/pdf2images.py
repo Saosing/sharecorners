@@ -44,3 +44,6 @@ def pdf_data_to_thumbnails(
 
     # if not returned
     raise ValueError("Error generating thumbnails: ", exceptions)
+
+
+# generate pdf text for search
