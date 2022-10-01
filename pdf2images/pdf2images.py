@@ -52,3 +52,6 @@ def pdf_data2text(pdf_data):
     # is more search friendly, while the python package `pdftotext` generates
     # text that preserves the layout in original pdf, which is better for
     # text-only-view, but hard to search.
+    from plumbum.cmd import pdftotext as pdftotext_exe
+
+    return (pdftotext_exe["-", "-"] << pdf_data)()
