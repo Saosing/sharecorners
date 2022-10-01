@@ -55,3 +55,6 @@ def pdf_data2text(pdf_data):
     from plumbum.cmd import pdftotext as pdftotext_exe
 
     return (pdftotext_exe["-", "-"] << pdf_data)()
+
+
+# --- Implementations
