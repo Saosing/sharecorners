@@ -50,3 +50,5 @@ def pdf_data_to_thumbnails(
 def pdf_data2text(pdf_data):
     # The commandline tool `pdftotext` from `xpdf` package generates text that
     # is more search friendly, while the python package `pdftotext` generates
+    # text that preserves the layout in original pdf, which is better for
+    # text-only-view, but hard to search.
