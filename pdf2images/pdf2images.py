@@ -62,3 +62,6 @@ def pdf_data2text(pdf_data):
 
 def pdf_data_to_thumbnails_by_imagemagick(
     pdf_data: bytes, pages: List[int], width_max: int, height_max: int
+):
+    """
+    Convert pdf data to set of images using imagemagick (via wand).
