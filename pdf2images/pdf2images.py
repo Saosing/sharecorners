@@ -65,3 +65,6 @@ def pdf_data_to_thumbnails_by_imagemagick(
 ):
     """
     Convert pdf data to set of images using imagemagick (via wand).
+
+    :return: dict: index -> png_data
+    """
