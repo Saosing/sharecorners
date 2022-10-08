@@ -69,3 +69,6 @@ def pdf_data_to_thumbnails_by_imagemagick(
     :return: dict: index -> png_data
     """
     rst = {}
+    tmpdir = tempfile.mkdtemp(prefix="mymagick")
+    try:
+        os.environ["MAGICK_TMPDIR"] = tmpdir
