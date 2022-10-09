@@ -77,3 +77,7 @@ def pdf_data_to_thumbnails_by_imagemagick(
         pdf_imgs.read(blob=pdf_data)
 
         # XXX: There's a known bug that some pdf cannot be read using
+        #       constructor, but to use `read` method after construction of
+        #       Image. The following code will result in
+        #       wand.exceptions.CorruptImageError:
+        #               with Image(blob=pdf_data) as pdf_imgs:
