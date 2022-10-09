@@ -72,3 +72,6 @@ def pdf_data_to_thumbnails_by_imagemagick(
     tmpdir = tempfile.mkdtemp(prefix="mymagick")
     try:
         os.environ["MAGICK_TMPDIR"] = tmpdir
+
+        pdf_imgs = Image()
+        pdf_imgs.read(blob=pdf_data)
