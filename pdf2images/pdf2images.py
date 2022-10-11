@@ -87,3 +87,7 @@ def pdf_data_to_thumbnails_by_imagemagick(
             j = Image(blob)
             j.format = "jpg"
             j.transform(resize="{}x{}".format(width_max, height_max))
+
+            bio = io.BytesIO()
+            j.save(bio)
+            img_data = bio.getvalue()
