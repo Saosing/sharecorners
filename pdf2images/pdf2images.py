@@ -81,3 +81,9 @@ def pdf_data_to_thumbnails_by_imagemagick(
         #       Image. The following code will result in
         #       wand.exceptions.CorruptImageError:
         #               with Image(blob=pdf_data) as pdf_imgs:
+
+        for idx in pages:
+            blob = pdf_imgs.sequence[idx]
+            j = Image(blob)
+            j.format = "jpg"
+            j.transform(resize="{}x{}".format(width_max, height_max))
