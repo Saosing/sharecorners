@@ -91,3 +91,8 @@ def pdf_data_to_thumbnails_by_imagemagick(
             bio = io.BytesIO()
             j.save(bio)
             img_data = bio.getvalue()
+
+            rst[idx] = img_data
+        pdf_imgs.close()
+    finally:
+        shutil.rmtree(tmpdir)
