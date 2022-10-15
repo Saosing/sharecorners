@@ -96,3 +96,5 @@ def pdf_data_to_thumbnails_by_imagemagick(
         pdf_imgs.close()
     finally:
         shutil.rmtree(tmpdir)
+
+    return rst
