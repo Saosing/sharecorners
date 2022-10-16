@@ -98,3 +98,6 @@ def pdf_data_to_thumbnails_by_imagemagick(
         shutil.rmtree(tmpdir)
 
     return rst
+
+
+def pdf_data_to_thumbnails_by_preview_generator(
