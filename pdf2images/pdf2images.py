@@ -119,3 +119,5 @@ def pdf_data_to_thumbnails_by_preview_generator(
 
     cache_dir = tempfile.mkdtemp(prefix="preview-cache-")
     try:
+        # save pdf
+        fd, pdf_path = tempfile.mkstemp(dir=cache_dir)
