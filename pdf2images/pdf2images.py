@@ -110,3 +110,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
     :return: dict map from page number to encoded image of that page.
     """
     # Installation:
+    #    - pip install preview-generator
+    #    - pakges to install: perl-image-exiftool, inskcape, scribus
+    # Testcase:
