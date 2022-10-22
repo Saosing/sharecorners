@@ -116,3 +116,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
     #    - http://arxiv.org/abs/1612.01033v2
     #    - where preview_generator succeed but wand failed.
     from preview_generator.manager import PreviewManager
+
+    cache_dir = tempfile.mkdtemp(prefix="preview-cache-")
+    try:
