@@ -121,3 +121,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
     try:
         # save pdf
         fd, pdf_path = tempfile.mkstemp(dir=cache_dir)
+        os.close(fd)
+        with open(pdf_path, "wb") as f:
+            f.write(pdf_data)
