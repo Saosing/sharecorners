@@ -113,3 +113,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
     #    - pip install preview-generator
     #    - pakges to install: perl-image-exiftool, inskcape, scribus
     # Testcase:
+    #    - http://arxiv.org/abs/1612.01033v2
+    #    - where preview_generator succeed but wand failed.
+    from preview_generator.manager import PreviewManager
