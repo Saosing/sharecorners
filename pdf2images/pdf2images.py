@@ -124,3 +124,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
         os.close(fd)
         with open(pdf_path, "wb") as f:
             f.write(pdf_data)
+
+        manager = PreviewManager(cache_dir, create_folder=True)
+        num_pages = manager.get_page_nb(pdf_path)
