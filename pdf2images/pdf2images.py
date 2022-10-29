@@ -129,3 +129,5 @@ def pdf_data_to_thumbnails_by_preview_generator(
         num_pages = manager.get_page_nb(pdf_path)
 
         rst = {}
+
+        for page in pages:
