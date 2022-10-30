@@ -137,3 +137,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
                 pdf_path, width=width_max, height=height_max, page=page
             )
             with open(preview_path, "rb") as f:
+                data = f.read()
+            if len(data) == 0:
+                raise ValueError("preview_generator gives zero-sized image")
