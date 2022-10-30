@@ -131,3 +131,5 @@ def pdf_data_to_thumbnails_by_preview_generator(
         rst = {}
 
         for page in pages:
+            if not (0 <= page < num_pages):
+                continue
