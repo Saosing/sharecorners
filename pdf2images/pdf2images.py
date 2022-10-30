@@ -133,3 +133,7 @@ def pdf_data_to_thumbnails_by_preview_generator(
         for page in pages:
             if not (0 <= page < num_pages):
                 continue
+            preview_path = manager.get_jpeg_preview(
+                pdf_path, width=width_max, height=height_max, page=page
+            )
+            with open(preview_path, "rb") as f:
