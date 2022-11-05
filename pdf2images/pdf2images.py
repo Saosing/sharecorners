@@ -149,3 +149,6 @@ def pdf_data_to_thumbnails_by_preview_generator(
 
 def pdf_data_to_thumbnails_by_qpdf(
     pdf_data: bytes, pages: List[int], width_max: int, height_max: int
+):
+    # `qpdf` seems quite robust at reading PDF files than other libraries.  It is
+    # the last-resort we have: splitting pdf into a set of
