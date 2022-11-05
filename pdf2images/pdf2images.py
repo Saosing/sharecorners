@@ -145,3 +145,7 @@ def pdf_data_to_thumbnails_by_preview_generator(
         shutil.rmtree(cache_dir)
 
     return rst
+
+
+def pdf_data_to_thumbnails_by_qpdf(
+    pdf_data: bytes, pages: List[int], width_max: int, height_max: int
