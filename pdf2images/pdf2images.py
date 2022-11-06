@@ -152,3 +152,5 @@ def pdf_data_to_thumbnails_by_qpdf(
 ):
     # `qpdf` seems quite robust at reading PDF files than other libraries.  It is
     # the last-resort we have: splitting pdf into a set of
+    # one-page pdfs, and then creating thumbnails one-by-one.
+    # `qpdf` can be install via system package manager
