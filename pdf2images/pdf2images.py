@@ -154,3 +154,6 @@ def pdf_data_to_thumbnails_by_qpdf(
     # the last-resort we have: splitting pdf into a set of
     # one-page pdfs, and then creating thumbnails one-by-one.
     # `qpdf` can be install via system package manager
+    from plumbum.cmd import qpdf
+
+    tempdir = tempfile.mkdtemp(prefix="qpdf-temp")
