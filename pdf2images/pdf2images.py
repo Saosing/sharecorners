@@ -162,3 +162,8 @@ def pdf_data_to_thumbnails_by_qpdf(
         fd, path = tempfile.mkstemp(dir=tempdir)
         os.close(fd)
         return path
+
+    try:
+        pdf_path = make_tempfile()
+        with open(pdf_path, "wb") as f:
+            f.write(pdf_data)
