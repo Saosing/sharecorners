@@ -157,3 +157,8 @@ def pdf_data_to_thumbnails_by_qpdf(
     from plumbum.cmd import qpdf
 
     tempdir = tempfile.mkdtemp(prefix="qpdf-temp")
+
+    def make_tempfile():
+        fd, path = tempfile.mkstemp(dir=tempdir)
+        os.close(fd)
+        return path
