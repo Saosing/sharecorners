@@ -167,3 +167,8 @@ def pdf_data_to_thumbnails_by_qpdf(
         pdf_path = make_tempfile()
         with open(pdf_path, "wb") as f:
             f.write(pdf_data)
+
+        # retcode=3: suppress error of
+        #     qpdf: operation succeeded with warnings; resulting file may have some problems
+        retcode = (0, 3)
+        num_pages = int(qpdf("--show-npages", pdf_path, retcode=retcode).strip())
