@@ -172,3 +172,5 @@ def pdf_data_to_thumbnails_by_qpdf(
         #     qpdf: operation succeeded with warnings; resulting file may have some problems
         retcode = (0, 3)
         num_pages = int(qpdf("--show-npages", pdf_path, retcode=retcode).strip())
+
+        pdf_pages = {}
