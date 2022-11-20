@@ -174,3 +174,6 @@ def pdf_data_to_thumbnails_by_qpdf(
         num_pages = int(qpdf("--show-npages", pdf_path, retcode=retcode).strip())
 
         pdf_pages = {}
+        for page in pages:
+            if not (0 <= page < num_pages):
+                continue
