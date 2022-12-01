@@ -180,3 +180,7 @@ def pdf_data_to_thumbnails_by_qpdf(
             page_out = make_tempfile()
             qpdf(
                 "--pages",
+                pdf_path,
+                "{page}-{page}".format(page=page + 1),
+                "--",
+                pdf_path,
