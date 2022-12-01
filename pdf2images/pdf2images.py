@@ -178,3 +178,5 @@ def pdf_data_to_thumbnails_by_qpdf(
             if not (0 <= page < num_pages):
                 continue
             page_out = make_tempfile()
+            qpdf(
+                "--pages",
