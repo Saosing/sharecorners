@@ -184,3 +184,5 @@ def pdf_data_to_thumbnails_by_qpdf(
                 "{page}-{page}".format(page=page + 1),
                 "--",
                 pdf_path,
+                page_out,
+                retcode=retcode,
