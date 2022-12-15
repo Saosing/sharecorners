@@ -194,3 +194,8 @@ def pdf_data_to_thumbnails_by_qpdf(
         for page, path in sorted(pdf_pages.items()):
             with open(path, "rb") as f:
                 out = pdf_data_to_thumbnails(
+                    f.read(),
+                    pages=pages,
+                    use_last_resort=False,
+                    width_max=width_max,
+                    height_max=height_max,
