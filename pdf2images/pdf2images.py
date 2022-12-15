@@ -192,3 +192,5 @@ def pdf_data_to_thumbnails_by_qpdf(
 
         rst = {}
         for page, path in sorted(pdf_pages.items()):
+            with open(path, "rb") as f:
+                out = pdf_data_to_thumbnails(
