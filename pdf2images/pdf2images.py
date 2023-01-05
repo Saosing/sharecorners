@@ -199,3 +199,4 @@ def pdf_data_to_thumbnails_by_qpdf(
                     use_last_resort=False,
                     width_max=width_max,
                     height_max=height_max,
+                )
