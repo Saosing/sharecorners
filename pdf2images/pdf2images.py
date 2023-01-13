@@ -200,3 +200,6 @@ def pdf_data_to_thumbnails_by_qpdf(
                     width_max=width_max,
                     height_max=height_max,
                 )
+
+            assert len(out) == 1, (len(out), page, path)
+            rst[page] = list(out.values())[0]
