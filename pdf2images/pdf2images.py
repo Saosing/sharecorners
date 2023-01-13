@@ -203,3 +203,6 @@ def pdf_data_to_thumbnails_by_qpdf(
 
             assert len(out) == 1, (len(out), page, path)
             rst[page] = list(out.values())[0]
+
+        return rst
+    finally:
