@@ -206,3 +206,5 @@ def pdf_data_to_thumbnails_by_qpdf(
 
         return rst
     finally:
+        shutil.rmtree(tempdir)
+
