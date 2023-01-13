@@ -211,3 +211,5 @@ def pdf_data_to_thumbnails_by_qpdf(
 
 def get_num_pages_given_path(pdf_path: str):
     from plumbum.cmd import qpdf
+
+    # retcode=3: suppress error of
