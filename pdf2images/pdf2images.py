@@ -208,3 +208,6 @@ def pdf_data_to_thumbnails_by_qpdf(
     finally:
         shutil.rmtree(tempdir)
 
+
+def get_num_pages_given_path(pdf_path: str):
+    from plumbum.cmd import qpdf
