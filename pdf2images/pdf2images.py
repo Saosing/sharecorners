@@ -213,3 +213,5 @@ def get_num_pages_given_path(pdf_path: str):
     from plumbum.cmd import qpdf
 
     # retcode=3: suppress error of
+    #     qpdf: operation succeeded with warnings; resulting file may have some problems
+    retcode = (0, 3)
