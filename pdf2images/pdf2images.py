@@ -216,3 +216,4 @@ def get_num_pages_given_path(pdf_path: str):
     #     qpdf: operation succeeded with warnings; resulting file may have some problems
     retcode = (0, 3)
     num_pages = int(qpdf("--show-npages", pdf_path, retcode=retcode).strip())
+    return num_pages
