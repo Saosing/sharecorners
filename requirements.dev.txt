@@ -5,3 +5,5 @@ black
 coverage
 flake8
 isort
+m2r
+pre-commit
