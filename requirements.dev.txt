@@ -10,3 +10,5 @@ pre-commit
 
 pytest
 pytest-cov
+radon
+seed-isort-config
