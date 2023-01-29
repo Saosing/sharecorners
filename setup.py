@@ -7,3 +7,7 @@ with open("README.md", "r") as fh:
 
 with open("requirements.txt") as f:
     requirements = [line.strip() for line in f]
+
+
+setuptools.setup(
+    name="pdf2images",
