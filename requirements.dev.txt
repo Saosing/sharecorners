@@ -3,3 +3,5 @@
 autoflake
 black
 coverage
+flake8
+isort
