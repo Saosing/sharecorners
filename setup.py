@@ -11,3 +11,5 @@ with open("requirements.txt") as f:
 
 setuptools.setup(
     name="pdf2images",
+    version="0.0.6",
+    author="Xinyu Zhou",
