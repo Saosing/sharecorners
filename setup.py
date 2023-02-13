@@ -21,3 +21,5 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=requirements,
     python_requires=">=3.5",
+    scripts=["bin/pdf2images"],
+    classifiers=[
