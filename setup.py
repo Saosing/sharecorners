@@ -17,3 +17,7 @@ setuptools.setup(
     description="Convert PDF file to image files ROBUSTLY.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    url="https://github.com/zxytim/pdf2images",
+    packages=setuptools.find_packages(),
+    install_requires=requirements,
+    python_requires=">=3.5",
