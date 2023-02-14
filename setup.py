@@ -23,3 +23,8 @@ setuptools.setup(
     python_requires=">=3.5",
     scripts=["bin/pdf2images"],
     classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: BSD License",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "Topic :: Software Development :: Libraries :: Python Modules",
