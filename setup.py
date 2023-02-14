@@ -28,3 +28,5 @@ setuptools.setup(
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
         "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+)
