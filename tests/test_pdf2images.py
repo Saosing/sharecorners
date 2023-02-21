@@ -12,3 +12,4 @@ class TestPDF2Images(unittest.TestCase):
     def setUpClass(cls):
         cls.pdf_path = os.path.join(ASSETS_DIR, "Sequence Modeling 2019-04.pdf")
         with open(cls.pdf_path, "rb") as f:
+            cls.pdf_data = f.read()
