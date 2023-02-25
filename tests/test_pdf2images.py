@@ -19,3 +19,7 @@ class TestPDF2Images(unittest.TestCase):
         rst = pdf2images.pdf_data_to_thumbnails(
             self.pdf_data, [0, 1, 2, 4, 8, 16, 32, 174], 100, 200
         )
+
+        self.assertEqual(len(rst), 8)
+        for data in rst.values():
+            self.assertGreater(len(data), 0)
