@@ -13,3 +13,6 @@ class TestPDF2Images(unittest.TestCase):
         cls.pdf_path = os.path.join(ASSETS_DIR, "Sequence Modeling 2019-04.pdf")
         with open(cls.pdf_path, "rb") as f:
             cls.pdf_data = f.read()
+
+    def test_basics(self):
+        self.assertEqual(pdf2images.get_num_pages_given_path(self.pdf_path), 175)
