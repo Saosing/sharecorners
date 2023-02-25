@@ -16,3 +16,6 @@ class TestPDF2Images(unittest.TestCase):
 
     def test_basics(self):
         self.assertEqual(pdf2images.get_num_pages_given_path(self.pdf_path), 175)
+        rst = pdf2images.pdf_data_to_thumbnails(
+            self.pdf_data, [0, 1, 2, 4, 8, 16, 32, 174], 100, 200
+        )
